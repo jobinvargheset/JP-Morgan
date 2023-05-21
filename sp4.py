@@ -6,7 +6,7 @@
 
 import streamlit as st
 import pandas as pd
-from scikit-learn .preprocessing import MinMaxScaler 
+from scikit-learn.preprocessing import MinMaxScaler 
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import numpy as np
