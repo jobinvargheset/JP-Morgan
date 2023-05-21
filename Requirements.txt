@@ -2,5 +2,5 @@ Streamlit
 pandas
 numpy
 keras
-tensorflow  == 2.0 (Keras is under tensorflow library)
-sklearn or scikitlearn == 1.1.2
+tensorflow 
+scikit-learn 
