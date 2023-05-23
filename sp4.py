@@ -6,14 +6,14 @@
 
 import streamlit as st
 import pandas as pd
-from scikit-learn.preprocessing import MinMaxScaler 
+from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import numpy as np
 
 # Load the dataset
 df1 = pd.read_csv('jpmorgan_data.csv')
-df1['Date'] = pd.to_datetime(df1['Date'], format="%d-%m-%Y")
+df1['Date'] = pd.to_datetime(df1['Date'])
 df1.set_index('Date', inplace=True)
 
 # Scale the data
